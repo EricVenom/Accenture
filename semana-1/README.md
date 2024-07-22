@@ -1,0 +1,1 @@
+### Repositório para armazenar atividades feitas no dia 22/07/2024
