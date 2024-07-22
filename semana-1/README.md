@@ -1,1 +1,6 @@
-### Repositório para armazenar atividades feitas no dia 22/07/2024
+# Semana 1
+
+- [22/07](./22-07-2024/)
+- 23/07
+- 24/07
+- 25/07
