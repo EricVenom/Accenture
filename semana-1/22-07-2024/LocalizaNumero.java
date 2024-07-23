@@ -1,11 +1,15 @@
 package sef.module3.sample;
+
+import java.util.Scanner;
+
 //Fa�a um programa para pesquisar o valor 8 no vetor dado:
 //inteiro vetor[] = {1, 3, 5, 8, 9, 10}
 public class LocalizaNumero {
-	// Corrigir este algoritmo.
+	static Scanner input = new Scanner(System.in);
 	public static void main(String[] args) {
 		int vetor[] = {1, 3, 5, 8, 9, 10};
-		int numero = 8;
+		System.out.println("Informe qual numero deseja procurar:");
+		int numero = input.nextInt();
 		int posicao = localizarNumero(numero, vetor);
 		boolean encontrado = posicao == -1 ? false:true;
 		
