@@ -47,13 +47,13 @@ public class ContaCorrente {
 		Date dataHoraTransferencia = new Date();
 		if (this.saldo >= valorTransferencia && valorTransferencia > 0) {
 			this.saldo -= valorTransferencia;
-			this.historico += "{Transferência: -" + valorTransferencia + 
+			this.historico += "{ Transferência: -" + valorTransferencia + 
 					", Conta Receptora: " + contaReceptora.numeroConta + 
 					", CPF do Titular: " + contaReceptora.cliente.getCpf() +
 					", Data: " + dataHoraTransferencia + " }\n";
 			
 			contaReceptora.saldo += valorTransferencia;
-			contaReceptora.historico += "{Transferência: +" + valorTransferencia + 
+			contaReceptora.historico += "{ Transferência: +" + valorTransferencia + 
 					", Conta Transferente: " + this.numeroConta + 
 					", CPF do Titular: " + this.cliente.getCpf() +
 					", Data: " + dataHoraTransferencia + " }\n";
